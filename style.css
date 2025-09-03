@@ -25,11 +25,29 @@ body{
     color:#777;
 }
 
-.timeline{
-    position:relative;
-    margin:1.5rem 0;
-    padding-left:1.5rem;
-    border-left:2px solid black;
+.timeline {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
 }
 
 
+
+.timeline-item {
+    margin-bottom: 20px;
+    position: relative;
+    width: calc(50% + 1px);
+    padding-right: 20px;
+    text-align: right;
+}
