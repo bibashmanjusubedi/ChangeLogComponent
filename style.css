@@ -60,3 +60,14 @@ body {
     border: 2px solid white;
     content: "";
   }
+
+  .changelog-footer{
+    display:flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  .changelog-footer button{
+    background-color: blue;
+    color:#ffffff;
+    border-radius: 10%;
+  }
